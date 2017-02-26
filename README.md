@@ -29,6 +29,8 @@ If you change the modules plugged in to the dock you can just return to IDLE and
 
 ## Create your Own Project
 
+In Scratch, click on 'Sensing' and then right-click on the 'sensor value' block and choose 'enable remote sensor connections'. 
+
 Connecting an **input module** to the Flotilla Dock and then running flotillascratch.py will automatically create 'sensor value' entries for the module. 
 
 To update an **output module** you need to create specific global (for all sprites) variables:
