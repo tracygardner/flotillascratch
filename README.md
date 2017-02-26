@@ -15,6 +15,8 @@ Download or clone this project.
 
 Open one of the Demo projects in Scratch, the image on the Stage will show you which modules to connect to the Flotilla Dock. 
 
+Click on 'Sensing' and then right-click on the 'sensor value' block and choose 'enable remote sensor connections'
+
 Open Programming->Python2 (IDLE)
 
 Open flotillascratch.py and run it - you can use F5. 
@@ -25,9 +27,22 @@ If you change the modules plugged in to the dock you can just return to IDLE and
 
 (You can also run the script from the command line.)
 
+## Create your Own Project
+
+Connecting an **input module** to the Flotilla Dock and then running flotillascratch.py will automatically create 'sensor value' entries for the module. 
+
+To update an **output module** you need to create specific global (for all sprites) variables:
++ Number: number1 (a number or text string)
++ Matrix: matrix1 (a string of 8 digits corresponding to a bar graph, e.g. 1 2 3 4 5 6 7)
++ Rainbow: rainbow1.red, rainbow1.blue, rainbow1.green (values 0-255), rainbow1.brightness
+
+If you have more that one module of a particular type then use rainbow2 etc. 
+
 ## Limitations
 
 You can only control all the pixels on a Rainbow together at the moment and there's limited support for the Matrix. Will add these when I think of a simple way to do it from Scratch. 
+
+Can't set brightness on Number and Matrix (will add)
 
 No requirements checking for modules. 
 
