@@ -52,4 +52,7 @@ No automatic updating of available modules in Scratch (but this may be possible.
 
 Lots more it could do, but hopefully this is a useful start. 
 
+## License
+
+MIT
 
