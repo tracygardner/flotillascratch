@@ -27,6 +27,8 @@ If you change the modules plugged in to the dock you can just return to IDLE and
 
 (You can also run the script from the command line.)
 
+More info at [Flotilla with Scratch 1.4](http://www.techagekids.com/2017/02/flotilla-with-scratch-14-on-raspberry-pi.html)
+
 ## Create your Own Project
 
 In Scratch, click on 'Sensing' and then right-click on the 'sensor value' block and choose 'enable remote sensor connections'. 
